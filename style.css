@@ -1,0 +1,482 @@
+body {
+    background-color: #0E0E0E;
+}
+
+/* Barra de Opciones,inicio,categoria y mas*/
+.barra {
+    background-color: #1A1A1A;
+    border: 1px solid #8B0000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+
+.a-barra-inicio {
+    color: #8B0000;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.a-barra-inicio:hover {
+    color: #EAEAEA;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.a-barra {
+    color: #EAEAEA;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.a-barra:hover {
+    color: #8B0000;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.separador-bar {
+    color: #555;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.img-bar {
+    width: 50px;
+    height: 30px;
+}
+
+/* Secion Principal */
+.secion-principal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h1-img {
+  font-family: 'Oswald', sans-serif;
+  color: #EAEAEA;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.p-img {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+.btn-caso {
+  background-color: #8B0000;
+  color: #EAEAEA;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 12px 22px;
+  border: 1px solid #1A1A1A;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-caso:hover {
+  background-color: #5A0000;
+  transform: scale(1.05);
+}
+
+/* Secion caso Destacado y 
+   Carta de Asesino*/
+.secion-destacado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carta-asesino {
+    background-color: #1A1A1A;
+    color: #B0B0B0;
+    text-align: center;
+    justify-self: center;
+    width: 330px;
+    border: 1px solid #5A0000;
+}
+
+.img-asesino {
+    margin-top: 30px;
+    width: 250px;
+    height: 333px;
+}
+
+.h2-titulo-carta {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #9A9A9A;
+}
+
+.p-descrip-carta {
+    font-family: 'Montserrat';
+    font-size: medium;
+    font-weight: 400;
+    color: #B0B0B0;
+    font-size: 13px;
+    text-align: start;
+    margin-left: 5px;
+}
+
+.boton-ver-caso {
+    background-color: #8B0000;
+    color: #EAEAEA;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.boton-ver-caso:hover {
+    background-color: #5A0000;
+}
+
+.a-vercasoboton {
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+/*====Casos Destacados y Boton de Deslizar====*/ 
+.casos {
+  position: relative;
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.card {
+  padding: 20px;
+  flex-shrink: 0;
+  text-align: center;
+  background-color: #1A1A1A;
+  color: #B0B0B0;
+  text-align: center;
+  justify-self: center;
+  width: 310px;
+  border: 1px solid #5A0000;
+}
+
+/* ====Botones==== */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(139, 0, 0, 0.8);
+  border: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-btn.left {
+  left: 5px;
+}
+
+.slider-btn.right {
+  right: 5px;
+}
+
+.slider-btn:hover {
+  background: darkred;
+}
+
+/* ===== PSICOLOGÍA CRIMINAL ===== */
+
+.psicologia {
+  background: linear-gradient(180deg, #0b0b0b, #141414);
+  padding: 70px 20px;
+  border-top: 1px solid #2a0000;
+}
+
+.psico-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.psico-content h2 {
+  font-size: 2.2rem;
+  color: #b30000;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.psico-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cfcfcf;
+  max-width: 700px;
+  margin: 0 auto 35px auto;
+}
+
+/* Lista */
+.psico-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.psico-lista li {
+  background: #1a1a1a;
+  padding: 15px 20px;
+  border-left: 4px solid darkred;
+  min-width: 220px;
+  font-size: 1rem;
+  color: #eee;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.psico-lista li:hover {
+  transform: translateY(-5px);
+  background: #200000;
+}
+
+/* Botón */
+.psicologia .btn {
+  display: inline-block;
+  padding: 14px 26px;
+  background: darkred;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 3px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.psicologia .btn:hover {
+  background: #b30000;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .psico-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .psico-lista {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/*==== Forence ====*/
+.forense {
+  background-color: #0d0d0d;
+  padding: 80px 20px;
+}
+
+.forense h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.forense-desc {
+  font-size: 1rem;
+  color: #b3b3b3;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+/* GRID */
+.forense-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TARJETAS */
+.forense-card {
+  background-color: #1a1a1a;
+  padding: 25px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #8b0000;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forense-card h3 {
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.forense-card p {
+  color: #c2c2c2;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* HOVER */
+.forense-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* BOTÓN */
+.forense-btn {
+  display: inline-block;
+  margin-top: 45px;
+  padding: 14px 28px;
+  background-color: #8b0000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.forense-btn:hover {
+  background-color: #a30000;
+  transform: scale(1.05);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .forense h2 {
+    font-size: 1.6rem;
+  }
+
+  .forense-card {
+    text-align: center;
+  }
+}
+
+.accion {
+  color: darkred;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   FOOTER MODERNO
+========================= */
+
+.footer {
+  background-color: #0c0c0c;
+  color: #cfcfcf;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+}
+
+.footer a {
+  color: #cfcfcf;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #8b0000;
+}
+
+/* FOOTER TOP */
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px 40px;
+  border-bottom: 1px solid #222;
+}
+
+.footer-box h3, .footer-box h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-box p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* LISTA DE NAVEGACIÓN */
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 8px;
+}
+
+/* ICONOS REDES */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #050505;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.footer-bottom a {
+  color: #8b0000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+  }
+}
