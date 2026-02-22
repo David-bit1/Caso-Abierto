@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b" />
+      <stop offset="100%" stop-color="#1d0f12" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="720" fill="url(#g)" />
+  <rect x="24" y="24" width="432" height="672" fill="none" stroke="#b30000" stroke-width="4" />
+  <text x="240" y="280" fill="#e6e6e6" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">DAHMER</text>
+  <text x="240" y="320" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">MONSTER</text>
+  <text x="240" y="360" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">THE JEFFREY DAHMER STORY</text>
+  <text x="240" y="440" fill="#8b0000" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Serie</text>
+</svg>
